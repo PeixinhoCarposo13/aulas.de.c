@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 int main(){
-    // declarando as variáveis.
+    // declarando as variáveis do tipo inteiro
     int num1, num2, num3;
-    // declarando a variável soma.
+    // declarando a variável soma do tipo inteiro
     int soma;
     
     // solicitando ao usuário que digite o primeiro número inteiro
