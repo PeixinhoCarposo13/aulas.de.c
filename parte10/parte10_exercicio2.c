@@ -1,9 +1,10 @@
-// definindo tipos
+/*
+Crie um programa que tenha uma struct chamada aluno contendo nome, 
+número de matrícula e curso. Leia do usuário a informação de 5 alunos, 
+armazene em um vetor desta estrutura e imprima os dados na tela.
+*/
 
 #include <stdio.h>
-#include <string.h>
-
-// struct -> estrutura
 
 struct st_aluno
 {
@@ -12,11 +13,6 @@ struct st_aluno
   int cpf;
   int idade;
 }alunos[5]; // array de structs - pode ser declarado no momento da definição da struct
-
-// struct dentro de struct -> é usado para organizar melhor os dados, principalmente quando temos muitos dados relacionados
-struct dados_gerais_alunos{
-  struct st_aluno alunos[5]; // array de structs - pode ser declarado no momento da definição da struct
-}dados_gerais_alunos; // struct que contém um array de structs
 
 int main()
 {
